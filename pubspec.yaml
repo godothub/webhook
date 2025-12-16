@@ -1,0 +1,16 @@
+name: webhook
+description: A tiny, dependency-free webhook server for Dart that routes requests by exact path + HTTP method, and lets you run shell scripts safely with cooldown and concurrency controls.
+version: 1.0.1
+homepage: https://github.com/godothub
+repository: https://github.com/godothub/webhook
+
+environment:
+  sdk: ^3.10.3
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

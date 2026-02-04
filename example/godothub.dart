@@ -24,7 +24,7 @@ Future<void> main(List<String> args) async {
 
   server.addHook(
     Webhook(
-      path: '/konado/build-docs',
+      path: '/deploy-website',
       options: HookOptions(
         workDir: '/opt/caddy',
         cooldown: const Duration(minutes: 30),
